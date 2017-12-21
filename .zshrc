@@ -39,6 +39,7 @@ alias -s rb='vim'     # 在命令行直接输入 ruby 文件，会在 Vim 中打
 alias -s py='vim'      # 在命令行直接输入 python 文件，会用 vim 中打开，以下类似
 alias -s js='vim'
 alias -s c='vim'
+alias -s cpp='vim'
 alias -s java='vim'
 alias -s txt='vim'
 alias -s gz='tar -xzvf' # 在命令行直接输入后缀为 gz 的文件名，会自动解压打开
