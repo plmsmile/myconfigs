@@ -1,9 +1,9 @@
 export ZSH=/home/plm/.oh-my-zsh
 
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="ys"
 
-ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "ys")
 
 
 DISABLE_AUTO_UPDATE="true"
@@ -46,6 +46,8 @@ alias -s gz='tar -xzvf' # 在命令行直接输入后缀为 gz 的文件名，�
 alias -s tgz='tar -xzvf'
 alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
+alias blogin="sh ~/.login.sh"
+alias blogout="sh ~/.logout.sh"
 
 
 ## Functions ####

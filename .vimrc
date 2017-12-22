@@ -21,8 +21,8 @@ func! CompileRunGcc()
     if &filetype == 'python'
         exec "!python %"
     elseif &filetype == 'cpp'
-        exec '!g++ -std=c++0x % -o %<.o'
-        exec '!time ./%<'
+        exec '!g++ -std=c++0x % -o %<.out'
+        exec '!time ./%<.out'
     elseif &filetype == 'sh'
         :!./%
     endif
