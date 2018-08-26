@@ -19,8 +19,9 @@ plugins=(
   git
   autojump
 )
+
+# autojump
 [[ -s /home/plm/.autojump/etc/profile.d/autojump.sh ]] && source /home/plm/.autojump/etc/profile.d/autojump.sh
-autoload -U compinit && compinit -u
 
 source $ZSH/oh-my-zsh.sh
 # export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:${PATH}"
@@ -48,6 +49,8 @@ alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
 alias blogin="sh ~/.login.sh"
 alias blogout="sh ~/.logout.sh"
+alias tas="tmux attach -t 0"
+alias smi="nvidia-smi"
 
 
 ## Functions ####
